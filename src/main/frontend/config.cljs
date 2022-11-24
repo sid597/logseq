@@ -109,7 +109,7 @@
   #{:adoc :asciidoc})
 
 (def other-formats
-  #{:zip :msg})
+  #{:zip :msg :eml})
 
 (defn extname-of-supported?
   ([input] (extname-of-supported?
